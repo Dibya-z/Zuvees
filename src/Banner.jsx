@@ -1,5 +1,6 @@
 import React from 'react';
 import image2 from './asset/image2.jpg';
+import arrow from './asset/arrow.jpg'
 
 function Banner() {
   return (
@@ -14,12 +15,12 @@ function Banner() {
         <p>
           Summer special <br /> Handmade bouquet
         </p>
-        <img
+        {/* <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/43f7bad976f42f7e2ee4fd4a454a54d7257ba4cdb82febf1918549a047452e7c?placeholderIfAbsent=true&apiKey=cb64faffcdb840d3a1f57cae13bb04be"
+          src={arrow}
           alt="Arrow icon"
           className="object-contain shrink-0 my-auto w-6 aspect-square"
-        />
+        /> */}
       </div>
     </section>
   );
