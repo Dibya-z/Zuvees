@@ -1,11 +1,12 @@
 import React from 'react';
+import image2 from './asset/image2.jpg';
 
 function Banner() {
   return (
     <section className="flex relative flex-col items-end self-center px-16 pt-72 pb-11 mt-20 max-w-full text-base font-bold text-white min-h-[384px] w-[1152px] max-md:px-5 max-md:pt-24 max-md:mt-10 rounded-lg overflow-hidden">
       <img
         loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/381107c281cdc75b56e67432a5274bd0f528998317ec451ddee22bcaf06e742b?placeholderIfAbsent=true&apiKey=cb64faffcdb840d3a1f57cae13bb04be"
+        src={image2}
         alt="Summer special banner background"
         className="object-cover absolute inset-0 size-full"
       />
